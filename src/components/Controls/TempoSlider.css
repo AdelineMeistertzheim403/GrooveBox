@@ -1,0 +1,55 @@
+.bpm-slider {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  width: 100%;
+}
+
+.bpm-readout {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-weight: 700;
+  color: #e8f1ff;
+}
+
+.bpm-label {
+  font-size: 13px;
+  letter-spacing: 0.6px;
+}
+
+.bpm-value {
+  font-size: 20px;
+  padding: 4px 8px;
+  border: 1px solid #1e2434;
+  border-radius: 8px;
+  background: #0f1118;
+  min-width: 48px;
+  text-align: center;
+}
+
+.bpm-slider input[type="range"] {
+  accent-color: #00aaff;
+  width: 100%;
+}
+
+.bpm-buttons {
+  display: flex;
+  gap: 6px;
+}
+
+.bpm-buttons button {
+  flex: 1;
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 1px solid #1f2533;
+  background: #0e1119;
+  color: #dce6f5;
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+
+.bpm-buttons button:hover {
+  border-color: #00eaff;
+  color: #00eaff;
+}

@@ -1,0 +1,69 @@
+.auth-panel {
+  background: rgba(12, 15, 24, 0.85);
+  border: 1px solid #1f2533;
+  border-radius: 12px;
+  padding: 10px;
+  color: #e5ecf7;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 260px;
+}
+
+.auth-tabs {
+  display: flex;
+  gap: 6px;
+}
+
+.auth-tabs button {
+  flex: 1;
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 1px solid #1f2533;
+  background: #0e1119;
+  color: #cdd6e8;
+  cursor: pointer;
+}
+
+.auth-tabs .active {
+  border-color: #00a2ff;
+  color: #00eaff;
+}
+
+.auth-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.auth-fields input {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #1f2533;
+  background: #0b0d14;
+  color: #e5ecf7;
+}
+
+.auth-btn {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #1f2533;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: #0a0a0d;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.auth-btn.secondary {
+  background: #0e1119;
+  color: #cdd6e8;
+}
+
+.auth-msg {
+  font-size: 12px;
+  color: #7fd0ff;
+}
+
+.auth-status {
+  font-size: 13px;
+}

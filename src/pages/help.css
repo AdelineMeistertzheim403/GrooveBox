@@ -1,0 +1,120 @@
+.help-page {
+  min-height: 100vh;
+  padding: 48px 16px 64px;
+  background: linear-gradient(180deg, rgba(6, 8, 16, 0.95), rgba(5, 7, 14, 0.98));
+  color: #e9edf5;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.help-hero {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+  background: rgba(12, 15, 24, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 18px;
+  padding: 22px 24px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
+}
+
+.help-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 11px;
+  color: #7fceff;
+  margin: 0 0 6px;
+}
+
+.help-title {
+  margin: 0 0 8px;
+  font-size: clamp(26px, 4vw, 34px);
+}
+
+.help-subtitle {
+  margin: 0;
+  color: #b9c6db;
+  max-width: 720px;
+}
+
+.help-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+
+.help-btn {
+  border: 1px solid #1f2533;
+  background: #0e1119;
+  color: #e9edf5;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  text-decoration: none;
+  text-align: center;
+}
+
+.help-btn.primary {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: #0a0a0d;
+  border-color: #00a2ff;
+}
+
+.help-btn.ghost {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.help-btn:hover {
+  transform: translateY(-1px);
+  border-color: #00eaff;
+  color: #00eaff;
+}
+
+.help-grid {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px;
+}
+
+.help-card {
+  background: rgba(12, 15, 24, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  padding: 16px 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.help-card.wide {
+  grid-column: span 2;
+}
+
+.help-card h2 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.help-card ul {
+  margin: 0;
+  padding-left: 18px;
+  color: #c8d3e6;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.help-bottom-actions {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+}
+
+@media (max-width: 720px) {
+  .help-card.wide {
+    grid-column: span 1;
+  }
+}
