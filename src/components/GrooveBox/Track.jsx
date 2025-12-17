@@ -149,17 +149,9 @@ export default function Track({
         ) : null}
         {setLength ? (
           <select
+            className="step-length-select"
             value={currentLength}
             onChange={(e) => setLength(Number(e.target.value))}
-            style={{
-              fontSize: 12,
-              padding: "4px 6px",
-              borderRadius: 8,
-              background: "#0d1018",
-              color: "#cdd6e8",
-              border: "1px solid #1f2533",
-              minWidth: 70,
-            }}
             title="Longueur du pattern pour cette piste"
           >
             {[8, 12, 16, 32].map((len) => (

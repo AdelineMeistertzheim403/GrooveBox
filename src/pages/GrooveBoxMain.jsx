@@ -445,7 +445,7 @@ export default function GrooveBoxMain() {
                 Aide
               </button>
               <button className="exit-btn" onClick={() => navigate("/")}>
-                Retour scenario
+                Retour
               </button>
             </div>
           </div>

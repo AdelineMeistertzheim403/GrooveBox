@@ -39,7 +39,20 @@
   gap: 6px;
   min-width: 200px;
   justify-content: flex-start;
+  width: 100%;
   flex-wrap: wrap;
+}
+
+.step-length-select {
+  font-size: 12px;
+  padding: 4px;
+  padding-right: 0;
+  border-radius: 8px;
+  background: #0d1018;
+  color: #cdd6e8;
+  border: 1px solid #1f2533;
+  min-width: 70px;
+  margin-left: auto;
 }
 
 .track-steps {
@@ -47,6 +60,7 @@
   gap: 6px;
   overflow-x: auto;
   padding: 4px 0;
+  margin-left: 5px;
   flex-wrap: nowrap;
   min-width: 520px;
 }
@@ -113,6 +127,7 @@
 .step.playing {
   outline: 2px solid #ffee00;
   box-shadow: 0 0 12px #ffee00;
+  margin-left: 5px;
 }
 
 .mute-btn,
