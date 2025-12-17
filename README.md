@@ -91,5 +91,3 @@ Application React/Tone.js pour créer des grooves, avec gestion des pistes (solo
 - `server/` API Express (auth JWT, MySQL)
 - `docker-compose.yml` pour MySQL + API + front en dev
 
-### Licence
-Projet privé (ajouter la licence appropriée si besoin).
